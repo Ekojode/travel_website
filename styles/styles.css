@@ -1,0 +1,11 @@
+#hero {
+    background-image: url(../assets/images/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+#hero-box {
+    width: 300px;
+    margin: auto;
+}
