@@ -3,6 +3,9 @@
     background-position: center;
     background-size: cover;
     height: 800px;
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 #hero-box {
@@ -14,4 +17,36 @@
     margin: auto;
     text-align: center;
     padding: 50px 0;
+    position: relative;
+    top: 250px;
+}
+
+#hero-box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+#hero-box p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#hero-box a {
+    text-decoration: none;
+    background-color: rgb(255, 251, 0);
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: black;
+    font-size: 24;
+    font-weight: 700;
+}
+
+#hero-box a:hover,
+#hero-box a:active {
+    background-color: rgb(255, 235, 0);
 }
